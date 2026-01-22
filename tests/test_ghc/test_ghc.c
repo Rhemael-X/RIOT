@@ -4,12 +4,12 @@
 #include "ghc/ghc_context.h"
 
 // Données fictives pour un en-tête IPv6 compressé (exemple simplifié)
-// Dispatch = 0xE0 (GHC), Encoding = 0x00 (IPv6)
+// Dispatch = 0xE0 (GHC), Encoding = 0x01 (IPv6)
 // Adresses : src et dst avec contexte ID 0
 // (À adapter selon la RFC 7400 pour des tests réels)
 static const uint8_t test_frame[] = {
     0xE0,  // Dispatch
-    0x00,  // Encoding ID (IPv6)
+    0x01,  // Encoding ID (IPv6)
     0x00,  // Next Header
     0x40,  // Hop Limit
     0x00,  // Context ID src
