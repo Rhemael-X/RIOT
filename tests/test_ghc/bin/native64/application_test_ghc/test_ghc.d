@@ -32,7 +32,10 @@
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-least.h /usr/include/string.h \
+ /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+ /usr/include/strings.h \
  /home/jean/Bureau/RIOT-Coul/RIOT/include/ghc/ghc.h \
  /home/jean/Bureau/RIOT-Coul/RIOT/include/ghc/ghc_cursor.h \
  /home/jean/Bureau/RIOT-Coul/RIOT/include/ghc/ghc_context.h \
@@ -48,8 +51,6 @@
  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
- /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /home/jean/Bureau/RIOT-Coul/RIOT/include/ghc/ghc_ext.h \
  /home/jean/Bureau/RIOT-Coul/RIOT/include/ghc/ghc_context.h
 /usr/include/stdc-predef.h:
@@ -87,6 +88,10 @@
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 /usr/include/x86_64-linux-gnu/bits/stdint-least.h:
+/usr/include/string.h:
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+/usr/include/strings.h:
 /home/jean/Bureau/RIOT-Coul/RIOT/include/ghc/ghc.h:
 /home/jean/Bureau/RIOT-Coul/RIOT/include/ghc/ghc_cursor.h:
 /home/jean/Bureau/RIOT-Coul/RIOT/include/ghc/ghc_context.h:
@@ -103,7 +108,5 @@
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
-/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
-/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 /home/jean/Bureau/RIOT-Coul/RIOT/include/ghc/ghc_ext.h:
 /home/jean/Bureau/RIOT-Coul/RIOT/include/ghc/ghc_context.h:
